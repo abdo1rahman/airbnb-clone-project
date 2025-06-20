@@ -21,7 +21,7 @@ This project is a full-stack clone of the popular accommodation booking platform
 * Headings: `Circular, Bold (700), 24px-32px`
 * Secondary Text: `Circular, Book (400), 14px`
 
-## UI/UX Design Goals:
+## UI/UX Design Planning:
 * ***Intuitive booking flow for users:***
     * Create vertical (main) list of horizontal sub-lists
     * The main lists will contain the cities, countries, etc.
