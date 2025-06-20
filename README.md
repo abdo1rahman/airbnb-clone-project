@@ -9,19 +9,21 @@ This project is a full-stack clone of the popular accommodation booking platform
 * ***Design Tools:*** Figma for UI/UX design
 * ***Animation Library***: AnimeJS, Motion 
 
-## Color Styles:
+## UI/UX Design Planning:
+
+### Color Styles:
 * Primary: `#FF5A5F`
 * Secondary: `#008489`
 * Background: `#FFFFFF`
 * Text: `#222222`
 * Secondary Text: `#717171`
   
-##Typography:
+### Typography:
 * Primary Font: `Circular, Medium (500), 16px`
 * Headings: `Circular, Bold (700), 24px-32px`
 * Secondary Text: `Circular, Book (400), 14px`
 
-## UI/UX Design Planning:
+### Other Design Goals:
 * ***Intuitive booking flow for users:***
     * Create vertical (main) list of horizontal sub-lists
     * The main lists will contain the cities, countries, etc.
@@ -54,3 +56,26 @@ This project is a full-stack clone of the popular accommodation booking platform
 <tr><th>Scrum Master</th>	<td>Facilitates agile processes, removes blockers, organizes meetings</td></tr>
 </tbody>
 </table>
+
+## UI Component Patterns:
+* ***Navbar***: stays sticky on top on desktop and on the bottom on mobile
+* ***Main List***: Vertical, shows sections of cities and places
+* ***Sub-lists***: Horizontal, shows choices of hotels in each city
+### Planned Components
+1. Navbar
+  * Logo
+  * Search bar
+  * User navigation
+  * Responsive menu
+    
+2. Property Card
+  * Property image
+  * Basic details (price, location, rating)
+  * Favorite button
+  * Responsive layout
+
+3. Footer
+  * Site links
+  * Company information
+  * Social media links
+  * Copyright information
